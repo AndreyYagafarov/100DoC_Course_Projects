@@ -1,27 +1,42 @@
 from morse import morse
 # A space is put between letters and three spaces are put between words (instead of a space)
 
+is_error = False
+
+
 def morse_to_text(text_enc):
+    global is_error
     list_temp = text_enc.split("  ")
     for idx, val in enumerate(list_temp):
         list_temp[idx] = val.split()
 
     text_dec = ""
 
-    for i in list_temp:
-        for j in i:
-            text_dec += list(morse.keys())[list(morse.values()).index(j)]
-        text_dec += " "
+    try:
+        for i in list_temp:
+            for j in i:
+                text_dec += list(morse.keys())[list(morse.values()).index(j)]
+            text_dec += " "
+    except ValueError:
+        is_error = True
+        print("There appears to be an error in the input. Please check")
     return text_dec
 
 
 def text_to_morse(text_dec):
+    global is_error
     text_enc = ""
-    for i in text_dec:
-        if i == " ":
-            text_enc += "  "
-        else:
-            text_enc += morse[i] + " "
+
+    try:
+        for i in text_dec:
+            if i == " ":
+                text_enc += "  "
+            else:
+                text_enc += morse[i] + " "
+    except KeyError:
+        is_error = True
+        print("There appears to be an error in the input. Please check")
+
 
 # the code above will always add a space at the end hence [:-1]
     return text_enc[:-1]
@@ -40,11 +55,13 @@ while to_continue:
     if menu == "e":
         text_dec = input("Please enter the text for encoding:\n").lower()
         text_enc = text_to_morse(text_dec)
-        print(f"The encoded text is:\n{text_enc}")
+        if not is_error:
+            print(f"The encoded text is:\n{text_enc}")
     elif menu == "d":
         text_enc = input("Please enter the text for decoding:\n").lower()
         text_dec = morse_to_text(text_enc)
-        print(f"The decoded text is:\n{text_dec}")
+        if not is_error:
+            print(f"The decoded text is:\n{text_dec}")
     elif menu == "q":
         to_continue = False
     else:
@@ -52,17 +69,3 @@ while to_continue:
     # prompt = input("Would you like to perform another operation (Y/N?").lower()
 
 print("Thank you for using the morse converter! Goodbye!")
-# a = "0 ab"
-# arev = "-----   .- -..."
-# print(text_to_morse(a))
-# print(morse_to_text(arev))
-
-# test
-# a = "random text, 123(@)"
-# ad = text_to_morse(a)
-# ar = morse_to_text(ad)
-# print(a)
-# print(ad)
-# print(ar)
-
-
