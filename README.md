@@ -7,24 +7,45 @@ The final projects in the course are given with minimal instructions and no tuto
 As I am still doing the course, the relevant code will be uploaded when the projects are completed.
 
 The repository covers the following projects:
+
 Day 80 - data analysis (Seaborn, Plotly, Matplotlib, sklearn Linear Regression) - final project following a number of lessons on data analysis and analytics (Pandas etc.)
+
 Day 81 - 
+
 Day 82 - 
+
 Day 83 - 
+
 Day 84 - 
+
 Day 85 - 
+
 Day 86 - 
+
 Day 87 - 
+
 Day 88 - 
+
 Day 89 - 
+
 Day 90 - 
+
 Day 91 - 
+
 Day 92 - 
+
 Day 93 - 
+
 Day 94 - 
+
 Day 95 - 
+
 Day 96 - 
+
 Day 97 - 
+
 Day 98 - 
+
 Day 99 - 
+
 Day 100 - 
