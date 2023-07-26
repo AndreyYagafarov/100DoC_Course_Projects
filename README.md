@@ -15,7 +15,7 @@ Day 81 - (Python scripting) create a text-based Morse code translator. The proje
 
 Day 82 - 
 
-Day 83 - (Python scripting) a text-based version of the tic-tac-toe game playable in the command line by two players. The final solution is implemented via simple functional (not object-oriented) script
+Day 83 - (Python scripting) a text-based version of the tic-tac-toe game playable in the command line by two players. The final solution is implemented via simple functional (not object-oriented) script.
 
 Day 84 - 
 
