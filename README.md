@@ -3,7 +3,7 @@ An overarching repository containing the final course projects
 
 This repository contrains the final course projects (day 80 to day 100) from the Angela Yu's Python course https://www.udemy.com/course/100-days-of-code/
 
-The final projects in the course are given with minimal instructions, no tutoring ("trial by fire"), and no answers provided.
+The final projects in the course are given with minimal instructions, no tutoring ("trial by fire"), and no solutions provided.
 
 As I am still doing the course, the relevant code will be uploaded when the projects are completed.
 
@@ -15,7 +15,7 @@ Day 81 - (Python scripting) create a text-based Morse code translator. The proje
 
 Day 82 - 
 
-Day 83 - 
+Day 83 - (Python scripting) a text-based version of the tic-tac-toe game playable in the command line by two players. The final solution is implemented via simple functional (not object-oriented) script
 
 Day 84 - 
 
