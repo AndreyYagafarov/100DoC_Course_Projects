@@ -47,6 +47,6 @@ Day 97 -
 
 Day 98 - (Data Science) Analyse and Visualise the Space Race. In addition to the data provided (which was up to 2020), I ran a web-parser (based on BeautifulSoup) on nextspaceflight.com to extract the most up-to-date (as of 18-Jul-2023). The project covers basics of data manipulation (data loading, exploration and cleaning, sorting, filtering, new columns (incl. using lambda functions), pivot tables), data analysis, and data visualisation 
 
-Day 99 - 
+Day 99 - (Data Science) Analyze and Visualise the Police Killings between 2015 and 2017. The project covers basics of data manipulation, analysis and visualisation. Unfortunately, the data sets provided for the assignment was not complete (no population data was provided). 
 
 Day 100 - 
