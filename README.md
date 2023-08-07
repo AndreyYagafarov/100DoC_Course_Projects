@@ -29,7 +29,7 @@ Day 88 -
 
 Day 89 - 
 
-Day 90 - 
+Day 90 - Build a simple pdf to audio converter. I used PyPDF2 as a pdf reader and pyttsx3 as an engine for text to audio conversion. The most difficult part was actually recalling the GUI commands in TKinter
 
 Day 91 - 
 
